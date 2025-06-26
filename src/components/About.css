@@ -1,0 +1,86 @@
+/* ---- Section Layout ---- */
+.about-section {
+  padding: 4rem 1.5rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f7fa 100%);
+  text-align: center;
+}
+
+/* ---- Typewriter Heading ---- */
+.typewriter {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #333;
+  animation: typing 3s steps(30, end), blink 0.8s step-end infinite;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.8s step-end infinite;
+}
+
+/* ---- Keyframes ---- */
+@keyframes typing {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50%      { border-color: #333; }
+}
+
+/* ---- Paragraphs ---- */
+.about-section p {
+  max-width: 800px;
+  margin: 0.6rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* ---- Academics Heading ---- */
+.academics-heading {
+  margin: 2.5rem 0 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* ---- Table Wrapper ---- */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* ---- Academic Table ---- */
+.academics-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.academics-table th,
+.academics-table td {
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+
+.academics-table thead {
+  background: #24292f;
+  color: #fff;
+}
+
+.academics-table tbody tr:nth-child(even) {
+  background: #f0f4f8;
+}
+
+.academics-table tbody tr:hover {
+  background: #e8eff7;
+  transform: scale(1.005);
+  transition: transform 0.2s;
+}

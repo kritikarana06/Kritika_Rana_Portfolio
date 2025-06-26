@@ -1,0 +1,14 @@
+.contact-section {
+  padding: 3rem;
+  background-color: #24292f;
+  color: white;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,18 @@
+.certifications-section {
+  padding: 3rem;
+  text-align: center;
+}
+
+.certifications-section h2 {
+  margin-bottom: 1rem;
+}
+
+.certifications-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications-section li {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
