@@ -1,86 +1,117 @@
-/* ---- Section Layout ---- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 .about-section {
-  padding: 4rem 1.5rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f5f7fa 100%);
-  text-align: center;
+  min-height: 90vh;
+  padding: 4rem 2rem;
+  background: rgb(31, 30, 30);
+  color: #eaf2ff;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(31, 30, 30);
+  color: #eaf2ff;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #00e8ff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00e8ff88;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* ---- Typewriter Heading ---- */
 .typewriter {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 0.15em solid #333;
-  animation: typing 3s steps(30, end), blink 0.8s step-end infinite;
+  color: #00e8ff;
+  text-shadow: 0 0 10px #00e8ff77;
+  margin-bottom: 0.4rem;
 }
 
 .cursor {
-  display: inline-block;
-  animation: blink 0.8s step-end infinite;
+  animation: blink 1s infinite;
+  color: #00e8ff;
 }
 
-/* ---- Keyframes ---- */
-@keyframes typing {
-  from { width: 0; }
-  to   { width: 100%; }
-}
 @keyframes blink {
-  from, to { border-color: transparent; }
-  50%      { border-color: #333; }
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
 }
 
-/* ---- Paragraphs ---- */
-.about-section p {
-  max-width: 800px;
-  margin: 0.6rem auto;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #444;
-}
-
-/* ---- Academics Heading ---- */
-.academics-heading {
-  margin: 2.5rem 0 1rem;
-  font-size: 1.8rem;
+.headline {
+  font-size: 1.2rem;
   font-weight: 600;
+  background: linear-gradient(90deg, #ff7a18, #af002d, #319197, #00e8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-/* ---- Table Wrapper ---- */
+.bio {
+  max-width: 750px;
+  margin: 0 auto 2.5rem auto;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Table Styling */
+.academics-heading {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #ffa600;
+}
+
 .table-wrapper {
   overflow-x: auto;
 }
 
-/* ---- Academic Table ---- */
 .academics-table {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   border-collapse: collapse;
-  background: #fff;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  overflow: hidden;
+  border: 1px solid #00e8ff66;
+  background-color: #1a1a2e;
+  color: #eaf2ff;
 }
 
 .academics-table th,
 .academics-table td {
-  padding: 1rem 1.2rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #00e8ff44;
   text-align: left;
 }
 
-.academics-table thead {
-  background: #24292f;
-  color: #fff;
+.academics-table th {
+  background-color: #112b4a;
+  color: #00e8ff;
+  font-weight: 600;
+}
+.cert-btn-wrapper {
+  text-align: center;
+  margin-top: 2.5rem;
 }
 
-.academics-table tbody tr:nth-child(even) {
-  background: #f0f4f8;
+.cert-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #00e8ff;
+  color: #00e8ff;
+  border-radius: 50px;
+  background: transparent;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #00e8ff55;
 }
 
-.academics-table tbody tr:hover {
-  background: #e8eff7;
-  transform: scale(1.005);
-  transition: transform 0.2s;
+.cert-button:hover {
+  background-color: #00e8ff;
+  color: #0f0c29;
+  box-shadow: 0 0 18px #00e8ffaa;
+  transform: scale(1.05);
 }

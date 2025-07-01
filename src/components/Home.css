@@ -1,5 +1,8 @@
+/* ==== dark, vibrant, classy look ==== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
 .home-section {
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 4rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -7,40 +10,107 @@
   align-items: center;
   text-align: center;
 
-  background: linear-gradient(to bottom right, #dde6f1, #f0f7ff);
+  /* deep violet–navy gradient */
+  background: rgb(31, 30, 30);
+  color: #eaf2ff;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #00e8ff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00e8ff88;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  max-width: 1200px;
+   margin-bottom: 5rem;
 }
-
 
 .intro-line {
   font-size: 1.2rem;
-  color: #666;
-  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin-bottom: 0.3rem;
 }
 
 .main-name {
-  font-size: 3rem;
+  font-size: 3.6rem;
   font-weight: 800;
-  color: #24292f;
-  margin-bottom: 1rem;
+  color: #00e8ff;               /* neon cyan */
+  text-shadow: 0 0 8px #00e8ff55;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffa600;               /* amber accent */
+  margin-bottom: 0.8rem;
 }
 
 .about-line {
-  font-size: 1.1rem;
-  color: #444;
+  max-width: 1200px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity: 0.9;
   margin-bottom: 2rem;
 }
 
-.resume-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #24292f;
-  color: white;
-  font-weight: 600;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background 0.3s ease;
+/* ---- Social icons ---- */
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+.social-links a {
+  color: #eaf2ff;
+  transition: transform 0.25s, color 0.25s;
+}
+.social-links a:hover {
+  color: #00e8ff;
+  transform: translateY(-3px) scale(1.1);
 }
 
+/* ---- Resume button ---- */
+.resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.6rem;
+  background: #00e8ff;
+  color: #0f0c29;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 0 10px #00e8ff88;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
 .resume-button:hover {
-  background: #444c56;
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px #00e8ffaa;
+}
+.resume-button .icon {
+  font-size: 1.2rem;
+}
+.skills-container {
+  border: 2px solid #00e8ff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00e8ff88;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  max-width: 950px;
+  margin: 0 auto;
+}
+/* Typewriter cursor blink */
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  width: 2px;
+  background: #00e8ff;
+  animation: blink 0.8s steps(1) infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
 }

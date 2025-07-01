@@ -3,24 +3,28 @@ import "./About.css";
 export default function About() {
   return (
     <section className="about-section" id="about">
-      {/* --- Dynamic Typewriter Heading --- */}
+      {/* Typewriter Name Intro */}
       <h2 className="typewriter">
-        Hi, my name is Kritika<span className="cursor">|</span>
+        About Me<span className="cursor">|</span>
       </h2>
 
-      {/* --- Bio Paragraphs --- */}
-      <p>
-        I’m a B.Tech Computer Science student who loves turning ideas into real-life
-        software projects. From CNN-based plant-disease detection to compiler
-        design, I enjoy exploring the full stack and solving problems that matter.
-      </p>
-      <p>
-        When I’m not coding, you’ll find me sharpening my DSA skills on LeetCode or
-        digging into system-level topics like disk scheduling and OS security.
-      </p>
+      {/* Stylish Headline */}
+      <h3 className="headline">
+        CSE Undergrad &nbsp;|&nbsp; Web Developer &nbsp;|&nbsp; Competitive Programmer
+      </h3>
 
-      {/* --- Academic Details Table --- */}
-      <h3 className="academics-heading">Academic Details</h3>
+      {/* Bio */}
+      <div className="bio">
+        <p>
+          I’m a final-year B.Tech CSE student at Graphic Era Hill University, deeply passionate about solving real-world problems through code.
+        </p>
+        <p>
+          With strong DSA fundamentals and experience across full-stack development, Android, and competitive programming, I love building impactful tech .
+        </p>
+      </div>
+
+      {/* Academics */}
+      <h4 className="academics-heading">Academic Details</h4>
       <div className="table-wrapper">
         <table className="academics-table">
           <thead>
@@ -33,26 +37,33 @@ export default function About() {
           </thead>
           <tbody>
             <tr>
-              <td>Sep&nbsp;2022 – Aug 2026</td>
-              <td>B.Tech&nbsp;CSE</td>
+              <td>2022 – 2026</td>
+              <td>B.Tech CSE</td>
               <td>Graphic Era Hill University, Dehradun</td>
-              <td><strong>9.04 / 10</strong></td>
+              <td>9.04 / 10</td>
             </tr>
             <tr>
               <td>2022</td>
               <td>Class XII</td>
               <td>Grace Academy School, Dehradun</td>
-              <td><strong>92.00 %</strong></td>
+              <td>92.00 %</td>
             </tr>
             <tr>
               <td>2020</td>
               <td>Class X</td>
               <td>Grace Academy School, Dehradun</td>
-              <td><strong>95.80 %</strong></td>
+              <td>95.80 %</td>
             </tr>
           </tbody>
         </table>
       </div>
+      {/* --- Certifications Button --- */}
+<div className="cert-btn-wrapper">
+  <a href="#certifications" className="cert-button">
+    View Certifications
+  </a>
+</div>
+
     </section>
   );
 }

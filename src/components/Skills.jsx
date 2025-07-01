@@ -3,18 +3,21 @@ import './Skills.css';
 function Skills() {
   return (
     <section className="skills-section" id="skills">
-      <h2>Skills</h2>
+      <div className="skills-container">
+      <h2 className="skills-heading">Tech Stack & Tools</h2>
+
       <div className="skills-grid">
-        <span>C++</span>
-        <span>Java</span>
-        <span>Python</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Node.js</span>
-        <span>SQL</span>
-        <span>Git & GitHub</span>
+        <div className="skill-card">C++</div>
+        <div className="skill-card">Java</div>
+        <div className="skill-card">Python</div>
+        <div className="skill-card">HTML</div>
+        <div className="skill-card">CSS</div>
+        <div className="skill-card">JavaScript</div>
+        <div className="skill-card">React</div>
+        <div className="skill-card">Node.js</div>
+        <div className="skill-card">SQL</div>
+        <div className="skill-card">Git & GitHub</div>
+      </div>
       </div>
     </section>
   );
