@@ -33,24 +33,44 @@ This responsive website highlights my **skills, projects, certifications**, and 
 
 🔗 [Click to View Portfolio](https://kritika-rana-portfolio.vercel.app/)
 
-> _(Replace with your actual Vercel or Netlify link)_
 
 ---
 
 ## 📂 Folder Structure
 
-src/
+Kritika_Rana_Portfolio/
 │
-├── assets/ # Certificate & project images
-├── components/ # Reusable React components
-│ ├── Home.jsx
-│ ├── About.jsx
-│ ├── Skills.jsx
-│ ├── Projects.jsx
-│ ├── Certifications.jsx
-│ ├── Contact.jsx
-│ └── Navbar.jsx
+├── public/                          # Static assets
+│   └── favicon.svg (optional)
 │
-├── App.jsx # Main component
-├── main.jsx # React DOM render point
-└── App.css # Global styling
+├── src/
+│   ├── assets/                      # Images (certificates, icons, etc.)
+│   │   ├── Cousera.png
+│   │   ├── aws1.png
+│   │   ├── aws2.png
+│   │   ├── awscli.png
+│   │   ├── cisco.png
+│   │   ├── Hackerrank.png
+│   │   ├── nptel.png
+│   │   └── pwcdata.png
+│   │
+│   ├── components/                  # All React components
+│   │   ├── About.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Home.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── App.jsx                      # Main app layout
+│   ├── main.jsx                     # React DOM render
+│   ├── App.css                      # Global styles
+│   ├── index.css (optional)        # Reset/normalize styles
+│
+├── .gitignore
+├── index.html                      # HTML entry point
+├── package.json                    # Project metadata & dependencies
+├── README.md                       # Project overview
+├── vite.config.js                  # Vite config
+└── LICENSE (optional)
