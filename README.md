@@ -31,7 +31,7 @@ This responsive website highlights my **skills, projects, certifications**, and 
 
 ## 📸 Live Preview
 
-🔗 [Click to View Portfolio](https://your-vercel-or-netlify-link.com)
+🔗 [Click to View Portfolio](https://kritika-rana-portfolio.vercel.app/)
 
 > _(Replace with your actual Vercel or Netlify link)_
 
