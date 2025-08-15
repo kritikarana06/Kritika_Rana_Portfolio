@@ -1,18 +1,13 @@
-.projects-section {
-  padding: 4rem 2rem;
-  background: transparent;
-  color: #eaf2ff;
-  margin-bottom: 5rem;
-}
+
 
 .projects-container {
+  background-color: #0a0a0a;
   border: 2px solid #00e8ff;
   border-radius: 20px;
   padding: 3rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 25px #00e8ff88;
-  background-color: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(6px);
 }
 

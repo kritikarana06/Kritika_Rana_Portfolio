@@ -1,6 +1,6 @@
 .skills-section {
+  background-color: #0a0a0a;
   padding: 4rem 2rem;
-  background: transparent;
   color: #eaf2ff;
   text-align: center;
 }
@@ -28,6 +28,7 @@
   border-radius: 12px;
   font-weight: 600;
   font-size: 1rem;
+  text-align: center;
   transition: 0.3s ease;
   box-shadow: 0 0 10px #00e8ff22;
   backdrop-filter: blur(6px);
@@ -40,11 +41,12 @@
   background-color: #00e8ff;
 }
 .skills-container {
+  text-align: center;
+  background-color: #0a0a0a;
   border: 2px solid #00e8ff;
   padding: 2.5rem;
   border-radius: 20px;
   box-shadow: 0 0 25px #00e8ff88;
-  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6px);
   max-width: 950px;
   margin: 0 auto;

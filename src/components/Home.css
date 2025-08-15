@@ -9,21 +9,46 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
+  background-color: black;
   /* deep violet–navy gradient */
-  background: rgb(31, 30, 30);
   color: #eaf2ff;
   font-family: "Poppins", sans-serif;
   border: 2px solid #00e8ff;
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 0 25px #00e8ff88;
-  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6px);
   max-width: 1200px;
    margin-bottom: 5rem;
 }
 
+  /* Profile picture stays circular */
+.profile-pic {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #043e43;
+  box-shadow: 0 0 15px #00e8ff88;
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.profile-pic:hover img {
+  transform: scale(1.1); /* Slight zoom */
+  box-shadow: 0 0 25px #00e8ffcc; /* Glow on hover */
+}
+
+/* Tagline text styling */
+.tagline {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #790ca8;
+}
 .intro-line {
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -38,18 +63,27 @@
   text-shadow: 0 0 8px #00e8ff55;
   margin-bottom: 0.5rem;
 }
-
-.tagline {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #ffa600;               /* amber accent */
-  margin-bottom: 0.8rem;
+.main-name:hover{
+  color: #790ca8;
 }
 
+
+.tagline-container {
+  display: flex;
+  align-items: center;       /* vertically center */
+  justify-content: flex-start; /* start from left */
+  gap: 40px;                  /* space between image and text */
+  flex-wrap: wrap;            /* wrap on smaller screens */
+  margin-bottom: 20px;
+  max-width: 900px;
+  text-align: left;
+}
 .about-line {
   max-width: 1200px;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2.6;
+  color: #f6f1f8;
   opacity: 0.9;
   margin-bottom: 2rem;
 }
@@ -57,12 +91,12 @@
 /* ---- Social icons ---- */
 .social-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.6rem;
   margin-bottom: 2rem;
-  font-size: 2.8rem;
+  font-size: 3rem;
 }
 .social-links a {
-  color: #eaf2ff;
+  color: #bfd3f0;
   transition: transform 0.25s, color 0.25s;
 }
 .social-links a:hover {

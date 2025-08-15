@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1 className="logo">Kritika Rana</h1>
+      <h1 className="logo">💡Kritika Rana</h1>
 
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <a href="#home" onClick={closeMenu}>Home</a>
@@ -23,6 +23,7 @@ function Navbar() {
         <a href="#projects" onClick={closeMenu}>Projects</a>
         <a href="#skills" onClick={closeMenu}>Skills</a>
         <a href="#certifications" onClick={closeMenu}>Certifications</a>
+        <a href="#experience" onClick={closeMenu}>Experience</a>
         <a href="#contact" onClick={closeMenu}>Talk To Me</a>
       </div>
 

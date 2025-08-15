@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 .about-section {
+  background-color: #0a0a0a;
   min-height: 90vh;
   padding: 4rem 2rem;
-  background: rgb(31, 30, 30);
+
   color: #eaf2ff;
   font-family: 'Poppins', sans-serif;
-  background: rgb(31, 30, 30);
   color: #eaf2ff;
   font-family: "Poppins", sans-serif;
   border: 2px solid #00e8ff;
   padding: 2.5rem;
   border-radius: 20px;
   box-shadow: 0 0 25px #00e8ff88;
-  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6px);
   max-width: 1200px;
   margin: 0 auto;
@@ -89,7 +88,16 @@
   background-color: #112b4a;
   color: #00e8ff;
   font-weight: 600;
+}/* Table row hover effect */
+.academics-table tbody tr {
+  transition: background-color 0.3s, transform 0.2s;
 }
+
+.academics-table tbody tr:hover {
+  background-color: #17bdcc; /* light neon cyan overlay */
+  transform: scale(1.01);       /* subtle zoom effect */
+}
+
 .cert-btn-wrapper {
   text-align: center;
   margin-top: 2.5rem;
