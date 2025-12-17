@@ -13,12 +13,18 @@
 }
 
 .logo {
-  color: #58a6ff;
   font-weight: 700;
   font-size: 1.8rem;
   font-family: 'Poppins', sans-serif;
-}
 
+  
+  color: #00e8ff;
+  text-shadow: 0 0 12px #00e8ff99;
+}
+.logo:hover{
+  color: rgb(199, 48, 249);
+
+}
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -44,7 +50,7 @@
 }
 
 .nav-links a:hover {
-  color: #58a6ff;
+  color: #0ad1ca;
 }
 
 .nav-links a:hover::after {
@@ -99,5 +105,10 @@
 
   .hamburger {
     display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1.2rem;
   }
 }

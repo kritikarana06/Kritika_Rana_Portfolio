@@ -17,7 +17,7 @@ function Contact() {
           <a href="https://github.com/kritikarana06" target="_blank" rel="noreferrer">
             <FaGithub className="icon" /> GitHub
           </a>
-          <a href="https://leetcode.com/kritikarana06" target="_blank" rel="noreferrer">
+          <a href="https://leetcode.com/u/kritikarana/" target="_blank" rel="noreferrer">
             <FaCode className="icon" /> LeetCode
           </a>
         </div>

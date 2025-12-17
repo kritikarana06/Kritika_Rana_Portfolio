@@ -17,7 +17,7 @@
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 0 25px #00e8ff88;
-  backdrop-filter: blur(6px);
+  
   max-width: 1200px;
    margin-bottom: 5rem;
 }
@@ -147,4 +147,74 @@
 @keyframes blink {
   0%, 50% { opacity: 1; }
   50.01%, 100% { opacity: 0; }
+}
+@media (max-width: 768px) {
+  .main-name {
+    font-size: 2.4rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .profile-pic img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about-line {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .social-links {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .home-section {
+    padding: 3rem 1.2rem;
+    margin-bottom: 3rem;
+    border-radius: 0;
+  }
+
+  .intro-line {
+    font-size: 1rem;
+  }
+
+  .main-name {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .tagline-container {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .profile-pic img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about-line {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .social-links {
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .resume-button {
+    margin-top: 1rem;
+  }
 }

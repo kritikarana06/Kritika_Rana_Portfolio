@@ -8,9 +8,11 @@
 }
 
 .experience-heading {
-  color: #00e8ff;
+  text-align: center;
   font-size: 2.2rem;
   margin-bottom: 2.5rem;
+  color: #00e8ff;
+  text-shadow: 0 0 12px #00e8ff99;
 }
 
 .experience-grid {

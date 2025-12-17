@@ -50,7 +50,7 @@ body {
   background-repeat: repeat;
 
   /* Gentle wave motion */
-  animation: waveMotion 20s infinite linear;
+  /*animation: waveMotion 20s infinite linear;*/
   overflow-x: hidden;
 }
 
@@ -119,5 +119,47 @@ body {
 
   p {
     font-size: 0.9rem;
+  }
+}
+/* Mobile performance & responsiveness */
+.app-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (hover: none) {
+  *:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}
+/* ===== Mobile layout reset ===== */
+@media (max-width: 768px) {
+  section {
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+}
+/* Prevent navbar overlap */
+body {
+  padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .skills-container,
+  .projects-container,
+  .certifications-section,
+  .experience-section,
+  .contact-section,
+  .about-section {
+    border: none !important;
+    box-shadow: none !important;
   }
 }

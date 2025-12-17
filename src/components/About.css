@@ -2,7 +2,7 @@
 
 .about-section {
   background-color: #0a0a0a;
-  min-height: 90vh;
+  min-height: auto;
   padding: 4rem 2rem;
 
   color: #eaf2ff;
@@ -13,7 +13,7 @@
   padding: 2.5rem;
   border-radius: 20px;
   box-shadow: 0 0 25px #00e8ff88;
-  backdrop-filter: blur(6px);
+  
   max-width: 1200px;
   margin: 0 auto;
 }

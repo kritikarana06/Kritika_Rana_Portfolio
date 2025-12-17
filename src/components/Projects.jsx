@@ -3,7 +3,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         <h2 className="projects-heading">Projects</h2>
 
         <div className="project-list">
@@ -24,7 +24,7 @@ export default function Projects() {
 
           {/* 2. Disk Scheduling Visualizer */}
           <a
-            className="project-card"
+            className="project-cards"
             href="https://github.com/kritikarana06/PBL_OS_KRITIKA_RANA_A1_GEHU"
             target="_blank"
             rel="noopener noreferrer"
@@ -52,7 +52,7 @@ export default function Projects() {
 
           {/* 4. Source-to-Source Compiler */}
           <a
-            className="project-card"
+            className="project-cards"
             href="https://github.com/kritikarana06/PBL_COMPILER_SOURCE_TO_SOURCE_CONVERTER"
             target="_blank"
             rel="noopener noreferrer"

@@ -16,13 +16,11 @@
 }
 
 .certifications-heading {
-  text-align: left;
-  font-size: 2.1rem;
-  color: #00bfff;
+  text-align: center;
+  font-size: 2.2rem;
   margin-bottom: 2.5rem;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 1px;
-  position: relative;
+  color: #00e8ff;
+  text-shadow: 0 0 12px #00e8ff99;
 }
 
 .cert-grid {

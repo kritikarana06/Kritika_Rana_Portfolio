@@ -67,7 +67,7 @@ export default function Home() {
       </div>
 
       <a
-        href="https://drive.google.com/uc?export=download&id=1Rx8iI_7TIWUfWTw19yc9zja2iCpIswVu"
+        href="https://drive.google.com/file/d/1wiqZaC17TZ7TUxvQZ0nlRBshy-_TfT3s/view?usp=sharing"
         className="resume-button"
         target="_blank"
         rel="noopener noreferrer"

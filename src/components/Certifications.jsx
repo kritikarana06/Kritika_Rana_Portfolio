@@ -9,6 +9,9 @@ import nptel from "../assets/nptel.png";
 import cisco from "../assets/cisco.png";
 import hackerrank from "../assets/Hackerrank.png";
 import udemy from "../assets/udemy.png";
+import flipkart from "../assets/flipkart.png";
+import adobe from "../assets/adobe.png";
+import pepsi from "../assets/pepsi.png";
 export default function Certifications() {
   return (
    
@@ -32,6 +35,24 @@ export default function Certifications() {
             <span className="issuer">PWC</span>
             <span className="date">June 18, 2025</span>
             <h3>PWC Launchpad - Data Engineering</h3>
+          </div>
+        </a>
+
+        <a className="cert-card" href="https://drive.google.com/file/d/1jnwYLkxcX4CdVhzyfTGPWtkT_Uhe-mrb/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <img src={flipkart} alt="Flipkart Grid 7.0 Semi-Finalist 2025" />
+          <div className="cert-info">
+            <span className="issuer">Flipkart</span>
+            <span className="date">Aug 15, 2025</span>
+            <h3>Flipkart Grid 7.0 Semi-Finalist 2025</h3>
+          </div>
+        </a>
+
+        <a className="cert-card" href="https://drive.google.com/file/d/19Gy-5Gn84BRHzAWIIrkhi-tOqvfvCnMh/view?usp=sharing">
+          <img src={adobe} alt="Flipkart Grid 7.0 Semi-Finalist 2025" />
+          <div className="cert-info">
+            <span className="issuer">Adobe</span>
+            <span className="date">Oct 18, 2025</span>
+            <h3>Adobe India Hackathon</h3>
           </div>
         </a>
 
@@ -94,6 +115,15 @@ export default function Certifications() {
             <span className="issuer">HackerRank</span>
             <span className="date">Sept 3, 2023</span>
             <h3>Problem Solving (Basic)</h3>
+          </div>
+        </a>
+
+        <a className="cert-card" href="https://drive.google.com/file/d/1zKlhJtDGq2Qw3y81BhnH6D_TWBjVByaW/view?usp=sharing">
+          <img src={pepsi} alt="Flipkart Grid 7.0 Semi-Finalist 2025" />
+          <div className="cert-info">
+            <span className="issuer">PepsiCo</span>
+            <span className="date">Oct 18, 2023</span>
+            <h3>PepSheCO Sales Star</h3>
           </div>
         </a>
       </div>
